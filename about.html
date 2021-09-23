@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>About - How to Digital</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="aboutstyle.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand fs-3" href="index.html">How to Digital</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link fs-5" id="homelink" aria-current="page" href="index.html">Home</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle fs-5" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Digital Drawing
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="personalcomputer.html">Personal Computer</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle fs-5" href="#" id="navbarDropdownMenuLink2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Graphic Design
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+                                <li><a class="dropdown-item" href="canva.html">Canva</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link fs-5" id="aboutlink" aria-current="page" href="about.html">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <!-- This is for the content -->
+
+        <br><br><br><br>
+        <h1 class="title">About Us</h1>
+        <br>
+        <p id="aboutus">
+            How to Digital is a website that aims to teach people the basics of digital drawing and graphic
+            degign. Everyone, from kids to adults, is welcome here to learn some tips in using editors
+            and applications when creating your digital drawing or graphic design.
+        </p>
+
+        <br>
+
+        <div class="container-fluid" id="contactus">
+            <h2 class="contactush2">Get in touch</h2>
+            <br>
+            <input type="text" name="firstname" placeholder="Your name..." class="formtype">
+
+            <input type="email" name="emailadd" placeholder="Your email address..." class="formtype">
+
+            <select id="country" name="country" class="formtype">
+                <option value="philippines">Philippines</option>
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="guyana">Guyana</option>
+                <option value="southafrica">South Africa</option>
+                <option value="uk">United Kingdom</option>
+                <option value="usa">USA</option>
+                <option value="other">Other</option>
+            </select>
+
+            <input type="text" name="yourmessage" placeholder="Please type your message..." class="formtype" id="messageform">
+    
+            <a href="#" onClick="return confirm('Please confirm to send this message.')"> <input type="submit" value="Submit" class="submitbutton"> </a>
+        </div>
+
+        <br><br>
+        <figure class="text-center">
+            <blockquote class="blockquote" id="btext">
+                <p>"Every great design begins with an even better story."</p>
+            </blockquote>
+            <figcaption class="blockquote-footer" id="bfooter">
+                Lorinda Mamo, designer
+            </figcaption>
+        </figure>
+        <br>
+
+        <hr class="featurette-divider">
+        <footer id="footer">
+            <p class="floatright">
+                <a href="#" style="text-decoration: none;" id="footerlink">Back to top</a>
+            </p>
+            <p class="floatleft">
+                © 2021 How to Digital
+            </p>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    </body>
+</html>

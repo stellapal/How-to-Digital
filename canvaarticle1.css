@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.navbar{
+    background-color: #166088;
+    padding-left: 1in;
+    padding-right: 1in;
+}
+
+.navbar-brand{
+    color: #DBE9EE;
+    font-family: 'Raleway', sans-serif;
+}
+.navbar-brand:hover{
+    color: #a3c2cf;
+}
+
+#homelink, #navbarDropdownMenuLink, #navbarDropdownMenuLink2, #aboutlink{
+    color: #DBE9EE;
+    font-family: 'Raleway', sans-serif;
+}
+#homelink:hover, #navbarDropdownMenuLink:hover, #navbarDropdownMenuLink2:hover, #aboutlink:hover{
+    color: #a3c2cf;
+}
+
+/*content*/
+
+.title{
+    font-size: 55px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #166088;
+    font-weight: bold;
+}
+
+.description{
+    padding-right: 1in;
+    padding-left: 1in;
+    font-size: 23px;
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+    color: #4F6D7A;
+}
+
+.subtitle{
+    padding-right: 1in;
+    padding-left: 1in;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #4F6D7A;
+}
+
+.rounded{
+    padding-right: 1in;
+    padding-left: 1in;
+}
+
+.articleheading{
+    padding-right: 1in;
+    padding-left: 1in;
+    font-size: 33px;
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+    color: #166088;
+    font-weight: bold;
+}
+
+
+/* footer */
+.container{
+    padding: 0px;
+}
+#footer p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #166088;
+}
+
+#footerlink{
+    color: #f10c7f;
+}
+
+.floatright{
+    padding-right: 1in;
+    float: right;
+}
+
+.floatleft{
+    padding-left: 1in;
+    float: left;
+}
